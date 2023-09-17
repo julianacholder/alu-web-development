@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+background-color:rebeccapurple;
+align-items:center;
+justify-content:center;
+width:100%
+}
+
+main{
+    display: flex;
+    flex: auto;
+width:100%
+ text-align:center;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 3;
+    overflow-y: auto;
+background-color: palevioletred;
+}
+header{
+display: flex;
+align-items: center;
+align-content: space-between;
+background-color: lightgreen;
+width: 100%
+}
